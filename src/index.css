@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  --bg: #060816;
+  --bg-soft: #0c1025;
+  --panel: #121631;
+  --line: #262b47;
+  --text: #f4f4f5;
+  --muted: #a1a1aa;
+  --brand: #8b5cf6;
+  --brand-soft: rgba(139, 92, 246, 0.16);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 14% -18%, rgba(59, 130, 246, 0.2), transparent 40%),
+    radial-gradient(circle at 86% -12%, rgba(139, 92, 246, 0.2), transparent 36%),
+    linear-gradient(180deg, #050713 0%, #070a18 45%, #060816 100%);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Sora", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+* {
+  box-sizing: border-box;
+}
