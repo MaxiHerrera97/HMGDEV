@@ -20,7 +20,7 @@ const Navbar = () => {
     >
       <Container>
         <nav className="flex h-20 items-center justify-between gap-6">
-          <a href="#inicio" className="inline-flex items-center gap-3">
+          <a href="#inicio" className="inline-flex items-center ">
             <img
               src={logo}
               alt="HMGDEV logo"
