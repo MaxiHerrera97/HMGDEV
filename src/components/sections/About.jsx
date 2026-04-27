@@ -6,7 +6,7 @@ import { FiCheckCircle } from "react-icons/fi";
 
 const About = () => {
   return (
-    <section className="py-24">
+    <section className="py-14 md:py-18">
       <Container>
         <div className="grid items-start gap-8 lg:grid-cols-[1fr_1.1fr]">
           <div>

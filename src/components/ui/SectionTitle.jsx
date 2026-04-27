@@ -3,7 +3,7 @@ const SectionTitle = ({ title, subtitle, eyebrow, align = "center" }) => {
     align === "left" ? "text-left items-start" : "text-center items-center";
 
   return (
-    <div className={`mb-12 flex flex-col ${alignment}`}>
+    <div className={`mb-7 md:mb-9 flex flex-col ${alignment}`}>
       {eyebrow && (
         <p className="mb-4 inline-flex items-center rounded-full border border-sky-200/20 bg-sky-200/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-sky-200">
           {eyebrow}
@@ -14,7 +14,7 @@ const SectionTitle = ({ title, subtitle, eyebrow, align = "center" }) => {
         {title}
       </h2>
 
-      {subtitle && <p className="mt-5 max-w-3xl text-zinc-400">{subtitle}</p>}
+      {subtitle && <p className="mt-3 max-w-3xl text-zinc-400">{subtitle}</p>}
     </div>
   );
 };

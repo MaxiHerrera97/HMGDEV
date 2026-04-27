@@ -33,7 +33,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicios" className="py-24">
+    <section id="servicios" className="py-14 md:py-18">
       <Container>
         <SectionTitle
           eyebrow="Servicios"
