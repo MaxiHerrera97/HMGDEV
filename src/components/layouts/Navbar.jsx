@@ -24,13 +24,13 @@ const Navbar = () => {
             <img
               src={logo}
               alt="HMGDEV logo"
-              className="h-14 w-14 object-contain"
+              className="h-25 w-25 object-contain"
             />
             <span className="leading-tight">
               <strong className="block text-base tracking-[0.16em] text-zinc-100">
                 HMGDEV
               </strong>
-              <span className="text-xs text-zinc-400">Desarrollo FullStack</span>
+             
             </span>
           </a>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
 
           <a
             href="#contacto"
-            className="inline-flex items-center gap-2 rounded-xl border border-sky-300/30 bg-sky-300/10 px-4 py-2 text-sm font-semibold text-sky-200 transition hover:bg-sky-300/20"
+            className="inline-flex items-center gap-5 rounded-xl border border-sky-300/30 bg-sky-300/10 px-4 py-2 text-sm font-semibold text-sky-200 transition hover:bg-sky-300/20"
           >
             <FiArrowUpRight className="text-base" />
             Solicitar propuesta

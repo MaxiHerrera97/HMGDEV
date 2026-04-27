@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="border-t border-zinc-800/70 py-10">
       <Container>
         <div className="flex flex-col items-center justify-between gap-4 text-sm text-zinc-500 md:flex-row">
-          <p>© {year} HMGDEV. Desarrollo FullStack para empresas que quieren crecer.</p>
+          <p>© {year} HMGDEV. Desarrollo FullStack.</p>
           <div className="flex flex-wrap items-center justify-center gap-5">
             <a
               className="inline-flex items-center gap-1.5 transition hover:text-zinc-200"
