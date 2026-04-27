@@ -26,7 +26,7 @@ const Navbar = () => {
               alt="HMGDEV logo"
               className="h-25 w-25 object-contain"
             />
-            <span className="leading-tight">
+            <span className="-ml-3 leading-tight">
               <strong className="block text-base tracking-[0.16em] text-zinc-100">
                 HMGDEV
               </strong>
