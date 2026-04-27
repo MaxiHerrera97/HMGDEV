@@ -76,6 +76,12 @@ const Hero = () => {
             src={slides[current]}
             alt="Servicios de desarrollo FullStack"
             className="h-[68vh] w-full object-cover object-center md:h-[86vh]"
+            style={{
+              WebkitMaskImage:
+                "linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%)",
+              maskImage:
+                "linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%)",
+            }}
             variants={slideVariants}
             initial="enter"
             animate="center"
@@ -86,7 +92,7 @@ const Hero = () => {
             }}
           />
         </AnimatePresence>
-        <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/35 via-transparent to-zinc-950/20" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-zinc-950/25 via-zinc-950/5 to-transparent" />
 
         <button
           type="button"
