@@ -33,7 +33,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicios" className="pb-6 pt-14 md:pb-10 md:pt-20">
+    <section id="servicios" className="pb-6 pt-16 md:pb-10 md:pt-24">
       <Container>
         <SectionTitle
           eyebrow="Servicios"

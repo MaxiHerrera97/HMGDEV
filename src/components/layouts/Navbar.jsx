@@ -46,9 +46,9 @@ const Navbar = () => {
 
           <a
             href="#contacto"
-            className="inline-flex items-center gap-3 rounded-xl border border-sky-300/30 bg-sky-300/10 px-4 py-2 text-sm font-semibold text-sky-200 transition hover:bg-sky-300/20"
+            className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-lg border border-sky-300/30 bg-sky-300/10 px-2.5 py-1.5 text-xs font-semibold text-sky-200 transition hover:bg-sky-300/20 sm:gap-2 sm:px-3 sm:py-1.5 sm:text-sm md:gap-3 md:rounded-xl md:px-4 md:py-2"
           >
-            <FiArrowUpRight className="text-base" />
+            <FiArrowUpRight className="hidden text-sm sm:block md:text-base" />
             Solicitar propuesta
           </a>
         </nav>
