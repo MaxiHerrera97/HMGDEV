@@ -22,7 +22,7 @@ const Projects = () => {
   const [activeDemo, setActiveDemo] = useState(demos[0]);
 
   return (
-    <section id="proyectos" className="py-14 md:py-18">
+    <section id="proyectos" className="py-6 md:py-10">
       <Container>
         <SectionTitle
           eyebrow="Casos reales"

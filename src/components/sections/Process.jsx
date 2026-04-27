@@ -33,7 +33,7 @@ const Process = () => {
   ];
 
   return (
-    <section id="proceso" className="py-14 md:py-18">
+    <section id="proceso" className="py-6 md:py-10">
       <Container>
         <SectionTitle
           eyebrow="Metodología"

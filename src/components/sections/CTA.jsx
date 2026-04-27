@@ -4,7 +4,7 @@ import { FiMail, FiMessageCircle } from "react-icons/fi";
 
 const CTA = () => {
   return (
-    <section id="contacto" className="pb-14 pt-5 md:pb-18 md:pt-7">
+    <section id="contacto" className="pb-6 pt-1 md:pb-10 md:pt-3">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 24 }}
