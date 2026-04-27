@@ -6,8 +6,8 @@ import { FiArrowUpRight } from "react-icons/fi";
 const Navbar = () => {
   const links = [
     { label: "Servicios", href: "#servicios" },
-    { label: "Caso Real", href: "#proyectos" },
-    { label: "Proceso", href: "#proceso" },
+    { label: "Proyectos", href: "#proyectos" },
+    { label: "Metodologia", href: "#proceso" },
     { label: "Contacto", href: "#contacto" },
   ];
 
